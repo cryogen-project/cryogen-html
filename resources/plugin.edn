@@ -1,0 +1,2 @@
+{:description "HTML dumper"
+ :init cryogen-html.core/init}
