@@ -1,4 +1,4 @@
-(defproject cryogen-html "0.1.0"
+(defproject cryogen-html "0.1.1"
   :description "HTML backend for Cryogen"
   :url "https://github.com/sanel/cryogen-html"
   :license {:name "Eclipse Public License"
