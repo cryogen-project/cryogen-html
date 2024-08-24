@@ -10,7 +10,7 @@ This plugin is mainly to support reading contents in html without further proces
   []
   (reify Markup
     (dir [this] "html")
-    (ext [this] ".html")
+    (exts [this] #{".html" ".htm"})
     (render-fn [this]
       (fn [rdr config]
         (->> (java.io.BufferedReader. rdr)
